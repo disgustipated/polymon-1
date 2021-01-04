@@ -6,7 +6,7 @@ set dateformat ymd
 Declare @StartDT datetime
 Declare @EndDT datetime
 set @StartDT = '2006-01-01 00:00:00'
-set @EndDT = '2020-12-31 00:00:00'
+set @EndDT = '2077-12-31 00:00:00'
 
 Declare @StartYear int
 Declare @EndYear int
