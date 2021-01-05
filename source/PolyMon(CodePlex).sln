@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GenericMonitor", "GenericMonitor\GenericMonitor.vbproj", "{78BDF177-308F-4400-A816-CF4ED9FBEF19}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FileMonitor", "FileMonitor\FileMonitor.vbproj", "{4B9A5EB4-7323-4BC7-B8F4-BCDD947E50A6}"
@@ -18,7 +20,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PolyMon", "PolyMon\PolyMon.
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PolyMonExecutive", "PolyMonExecutive\PolyMonExecutive.vbproj", "{F1F2A34D-2761-492E-93BD-38DD11C9C30E}"
 EndProject
-Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "PolymonSQL", "PolymonSQL\PolymonSQL.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PolymonSQL", "PolymonSQL\PolymonSQL.sqlproj", "{5236D340-64BA-4E91-89BE-51074C05832C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNMP", "SNMP\SNMP.csproj", "{6742A8D6-BB8C-4528-AFEC-BA74DDEDA489}"
 EndProject
@@ -107,16 +109,6 @@ Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "PolyMon Installation", "Pol
 	EndProjectSection
 EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 1
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs01
-		SccProjectUniqueName0 = PolymonSQL\\PolymonSQL.dbproj
-		SccProjectName0 = PolymonSQL
-		SccAuxPath0 = https://tfs.codeplex.com/tfs/tfs01
-		SccLocalPath0 = PolymonSQL
-		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -234,16 +226,16 @@ Global
 		{F1F2A34D-2761-492E-93BD-38DD11C9C30E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{F1F2A34D-2761-492E-93BD-38DD11C9C30E}.Release|x86.ActiveCfg = Release|x86
 		{F1F2A34D-2761-492E-93BD-38DD11C9C30E}.Release|x86.Build.0 = Release|x86
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
-		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|x86.ActiveCfg = Release|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{5236D340-64BA-4E91-89BE-51074C05832C}.Release|x86.ActiveCfg = Release|Any CPU
 		{6742A8D6-BB8C-4528-AFEC-BA74DDEDA489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6742A8D6-BB8C-4528-AFEC-BA74DDEDA489}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6742A8D6-BB8C-4528-AFEC-BA74DDEDA489}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -545,5 +537,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8623522-D8B6-4DD5-B589-0AD6971FF584}
 	EndGlobalSection
 EndGlobal
